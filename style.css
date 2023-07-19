@@ -50,3 +50,38 @@ body{
     height: 24px;
     cursor: pointer;
 }
+.head-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.heading{
+    color: black;
+    font-size: 48px;
+}
+.heading-one{
+    background: linear-gradient( 0deg, #F948B2 0%, #8758F1 );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 95px;
+}
+.box-head{
+    width: 355px;
+    background-image: url("images/Group\ 14.png");
+    
+}
+.head-content{
+    gap: 30px;
+}
+.header-photo{
+    width: 711px;
+    height: 600px;
+}
