@@ -1,0 +1,52 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.logo{
+    display: flex;
+    gap: 20px;
+}
+.logo-photo{
+    width: 70px;
+    height: 30px;
+    margin-top: 20px;
+}
+.gamer{
+    color: deeppink;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.navi-container{
+    display: flex;
+    justify-content: space-between;
+}
+.para-one, .para-two{
+    margin-right: 20px;
+}
+.box{
+    display: flex;
+    gap: 10px;
+    width: 200px;
+    height: 30px;
+    background-color: rgba(11, 2, 35, 0.10);
+    justify-content: center;
+    padding-top: 5px;
+    margin-top: 13px;
+}
+.nav-photo{
+    display: flex;
+}
+.nav-photo-one{
+    width: 33px;
+    height: 20px;
+    cursor: pointer;
+}
+.nav-photo-two{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
