@@ -119,9 +119,22 @@ body{
 .third-page{
     display: flex;
     justify-content: space-between;
+    background-color: #f8d7eb;
     padding-left: 140px;
     padding-right: 140px;
     margin-top: 70px;
+    
+}
+.btn-two{
+    width: 130px;
+    height: 45px;
+    background-color: #F948B2;
+    border-radius: 30px;
+    border-color: #F948B2;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    margin-left: 300px;
 }
 .third-page-photo{
     width: 700px;
@@ -143,4 +156,39 @@ body{
 }
 .thir-page-para, .short-head{
     text-align: right;
+}
+.fourth-head{
+    font-size: 50px;
+    text-align: center;
+}
+.fourth-photo{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.fourth-para{
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.photo{
+    width: 242px;
+}
+.fiftp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.horse-photo{
+    width: 400px;
+    background-image: url('images/Rectangle\ 66.png');
+    transform: scale()
+}
+.para-three{
+    padding-left: 200px;
 }
