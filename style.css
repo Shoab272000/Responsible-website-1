@@ -61,19 +61,24 @@ body{
     display: flex;
     flex-direction: column;
     gap: 5px;
+    margin-top: -80px;
 }
 .heading{
     color: black;
     font-size: 48px;
+    margin-bottom: -100px;
 }
 .heading-one{
-    background: linear-gradient( 0deg, #F948B2 0%, #8758F1 );
+    background: linear-gradient( 45deg, #F948B2 0%, #8758F1 );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
 }
 .box-head{
+    
     width: 355px;
     background-image: url("images/Group\ 14.png");
     
@@ -84,4 +89,58 @@ body{
 .header-photo{
     width: 711px;
     height: 600px;
+}
+.Button-class{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+.btn{
+    width: 130px;
+    height: 45px;
+    background-color: #F948B2;
+    border-radius: 30px;
+    border-color: #F948B2;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+.btn-1{
+    width: 130px;
+    height: 45px;
+    background-color: #4EC5F7;
+    border-radius: 30px;
+    border-color: #4EC5F7;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+.third-page{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-top: 70px;
+}
+.third-page-photo{
+    width: 700px;
+}
+.heade{
+    background: linear-gradient( 45deg, #F948B2 0%, #8758F1 );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: right;
+}
+.right-side{
+    justify-content: space-between;
+}
+.short-head{
+    color: #534C64;
+}
+.thir-page-para, .short-head{
+    text-align: right;
 }
