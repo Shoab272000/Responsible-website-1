@@ -298,6 +298,10 @@ footer .site-part ul{
 .go-tos a{
     color: white;
 }
+.horse{
+    background-image: url("images/Rectangle\ 66.png");
+    position: relative;
+}
 
 /*media*/
 
@@ -368,11 +372,31 @@ footer .site-part ul{
     }
     .head-container{
         margin-left: -50px;
+        padding-left: -15px;
+        
+    }
+    .third-page-photo{
+        border-left: 300px;
     }
     .games{
         margin-left: -150px;
     }
+    .third-page{
+        margin-left: -100;
+    }
+    .fourth-page img{
+        width: 250px;
+    }
 }
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    .nav-container,
+    .navi-container{
+        width: 25px;
+        flex-direction: column;
+    }
+    .logo{
+        width: 25px;
+        
+    }
     
 }
