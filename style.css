@@ -193,6 +193,11 @@ body{
    
     
 }
+.beside-horse{
+    width: 250px;
+    margin-left: 200px;
+    padding-right: 150px;
+}
 
 .para-three{
     padding-left: 200px;
@@ -212,8 +217,9 @@ body{
     display: flex;
     text-align: center;
     align-items: center;
-    width: 281px;
-    height: 80px;
+    
+    width: 200px;
+    height: 50px;
     border-radius: 50px;
     background: #FFF;
     gap: 1rem;
@@ -225,6 +231,7 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-left: 150px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 .game-type:hover{
@@ -319,7 +326,7 @@ footer .site-part ul{
     }
     .header-photo{
         width: 300px;
-        padding-left: -200px;
+        padding-left: -100px;
     }
     .third-page-photo{
         width: 400px;
@@ -347,6 +354,25 @@ footer .site-part ul{
     }
     .para-three{
         text-align: center;
-        border-left: 200px;
+        margin-left: -200px;
     }
+    .para-three{
+       border-left: 5px;
+    }
+    .fiftp{
+        width: 576px;
+        padding-left: 5px;
+    }
+    .box-head{
+        width: 350px;
+    }
+    .head-container{
+        margin-left: -50px;
+    }
+    .games{
+        margin-left: -150px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    
 }
